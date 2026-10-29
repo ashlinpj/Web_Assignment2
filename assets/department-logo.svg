@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Northstar College CS logo</title><desc id="desc">A blue north star above a teal circuit pattern.</desc>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="#17294d"/>
+  <path d="M64 19 70 49 98 36 80 58 108 67 78 71 91 99 68 80 61 109 56 79 28 93 47 70 19 60 50 57 37 29 59 48Z" fill="#75ddd1"/>
+  <circle cx="64" cy="64" r="9" fill="#fff"/>
+  <path d="M35 102h16v-9h13m0 9h13v-9h16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+</svg>

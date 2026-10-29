@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Department of Computer Science at Northstar College: programmes, faculty, facilities and student enquiries.">
+  <title>Department of Computer Science | Northstar College</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <img src="assets/department-logo.svg" width="52" height="52" alt="Northstar College computer science department logo">
+      <span><strong>Northstar College</strong><small>Department of Computer Science</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#programmes">Programmes</a><a href="#faculty">Faculty</a><a href="#facilities">Facilities</a><a href="#enquiry">Enquiry</a>
+    </nav>
+  </header>
+  <main id="home">
+    <section class="hero" aria-labelledby="welcome-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Learn. Build. Make an impact.</p>
+        <h1 id="welcome-title">Department of Computer Science</h1>
+        <p>Explore computing through strong foundations, practical projects and a supportive academic community.</p>
+        <div class="hero-actions"><a class="button" href="#programmes">Explore programmes</a><a class="text-link" href="https://www.example.edu" target="_blank" rel="noopener noreferrer">Visit the college website</a></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of a computer science learning space">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="laptop"><div class="screen"><span>&lt;/&gt;</span><i></i><i></i><i></i></div><div class="base"></div></div>
+        <span class="art-tag tag-one">code</span><span class="art-tag tag-two">ideas</span>
+      </div>
+    </section>
+    <section id="about" class="content-section about-section" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow">Our department</p><h2 id="about-title">Curiosity meets practical learning</h2></div>
+      <article class="about-card"><p>The Department of Computer Science introduces students to the principles behind modern computing. Classes combine lectures, laboratory work and team projects so learners can apply concepts to real problems.</p><p>Students build skills in programming, data, systems and responsible technology while learning to communicate and collaborate.</p></article>
+    </section>
+    <section id="programmes" class="content-section tinted" aria-labelledby="programmes-title">
+      <div class="section-heading"><p class="eyebrow">Study with us</p><h2 id="programmes-title">Academic programmes</h2><p>Sample programme names for this demonstration. Replace them with the department's approved offerings.</p></div>
+      <div class="card-grid">
+        <article class="info-card"><span class="card-number">01</span><h3>B.Sc. Computer Science</h3><p>A three-year undergraduate programme in computing fundamentals, software development and data.</p></article>
+        <article class="info-card"><span class="card-number">02</span><h3>M.Sc. Computer Science</h3><p>Advanced study in computing theory, intelligent systems and applied research.</p></article>
+        <article class="info-card"><span class="card-number">03</span><h3>Certificate in Web Development</h3><p>A short practical course covering accessible web pages and interactive experiences.</p></article>
+      </div>
+      <div class="subjects"><h3>Selected subjects</h3><ul><li>Programming Fundamentals</li><li>Data Structures and Algorithms</li><li>Database Management Systems</li><li>Computer Networks</li><li>Web Technologies</li><li>Artificial Intelligence</li></ul></div>
+    </section>
+    <section id="faculty" class="content-section" aria-labelledby="faculty-title">
+      <div class="section-heading"><p class="eyebrow">People who teach and mentor</p><h2 id="faculty-title">Faculty</h2><p>The faculty details below are illustrative sample data.</p></div>
+      <div class="table-wrap"><table><caption>Sample faculty and areas of specialization</caption><thead><tr><th scope="col">Name</th><th scope="col">Designation</th><th scope="col">Area of specialization</th></tr></thead>
+        <tbody>
+          <tr><td>Dr. Asha Mehta</td><td>Head of Department</td><td>Artificial Intelligence</td></tr>
+          <tr><td>Prof. Rahul Sen</td><td>Professor</td><td>Data Structures and Algorithms</td></tr>
+          <tr><td>Dr. Leena Joseph</td><td>Associate Professor</td><td>Database Systems</td></tr>
+          <tr><td>Dr. Kabir Rao</td><td>Assistant Professor</td><td>Computer Networks</td></tr>
+          <tr><td>Ms. Nisha Patel</td><td>Lecturer</td><td>Web Technologies</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+    <section id="facilities" class="content-section tinted" aria-labelledby="facilities-title">
+      <div class="section-heading"><p class="eyebrow">Spaces to experiment</p><h2 id="facilities-title">Facilities</h2></div>
+      <div class="facility-grid">
+        <article class="facility-card"><h3>Teaching laboratories</h3><p>Workstations for programming exercises, software projects and practical classes.</p></article>
+        <article class="facility-card"><h3>Project studio</h3><p>A shared space for student teams to plan, build and present their work.</p></article>
+        <article class="facility-card"><h3>Digital library</h3><p>Access to computing books, journals and online learning materials.</p></article>
+      </div>
+    </section>
+    <section id="enquiry" class="content-section enquiry-section" aria-labelledby="enquiry-title">
+      <div class="enquiry-intro"><p class="eyebrow">We can help</p><h2 id="enquiry-title">Student enquiry</h2><p>Ask for information about courses or admissions. This sample form demonstrates the fields; a real site needs a server or form service to receive submissions.</p><address>Department Office<br>Northstar College, 12 Learning Lane<br><a href="mailto:cs@example.edu">cs@example.edu</a> | +1 555 010 2040</address></div>
+      <form class="enquiry-form" action="#enquiry" method="get" onsubmit="document.getElementById('form-status').textContent='Thank you. This demonstration form does not send your details.'; return false;">
+        <label for="student-name">Name</label><input id="student-name" name="name" type="text" autocomplete="name" required>
+        <label for="student-email">Email address</label><input id="student-email" name="email" type="email" autocomplete="email" required>
+        <label for="student-phone">Phone number</label><input id="student-phone" name="phone" type="tel" autocomplete="tel" required>
+        <label for="course-choice">Course preference</label><select id="course-choice" name="course" required><option value="">Select a programme</option><option>B.Sc. Computer Science</option><option>M.Sc. Computer Science</option><option>Certificate in Web Development</option></select>
+        <button class="button" type="submit">Submit enquiry</button><p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><p>&copy; 2026 Northstar College - Department of Computer Science</p><a href="https://www.example.edu" target="_blank" rel="noopener noreferrer">College website</a></footer>
+</body>
+</html>
